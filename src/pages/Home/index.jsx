@@ -15,6 +15,8 @@ import ButtonChat from '../../components/ButtonChat'
 import waves from '../../assets/waves.png'
 import Apresentacao from '../../components/Apresentacao'
 import MenuMobile from '../../components/MenuMobile'
+import SobreMim from '../../components/SobreMim'
+import MeusProjetos from '../../components/MeusProjetos'
 
 export default function Home () {
   const [menuIsVisible, setMenuIsVisible] = useState(false)
@@ -34,23 +36,12 @@ export default function Home () {
 
         <Sobre id='sobre'>
           <h1>Sobre mim</h1>
-          <h1>
-            It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at its layout. The point
-            of using Lorem Ipsum is that it has a more-or-less normal
-            distribution of letters, as opposed to using 'Content here, content
-            here's by accident, sometimes on purpose (injected humour
-            and the like).
-          </h1>
+          <SobreMim />
         </Sobre>
 
         <Projetos id='projetos'>
           <h1>Meus Projetos</h1>
-          <h1>
-            It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at its layout. The point
-            .
-          </h1>
+          <MeusProjetos />
         </Projetos>
 
         <Contato id='contato'>
