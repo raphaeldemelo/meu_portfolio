@@ -35,5 +35,9 @@ export const Nav = styled.nav`
 
   a {
     font-size: 3rem;
+
+    :hover {
+      color: var(--color-orange);
+    }
   }
 `
