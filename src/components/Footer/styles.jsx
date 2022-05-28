@@ -5,13 +5,12 @@ export const Container = styled.footer`
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  height: 100px;
+  height: 10px;
   width: 100vw;
 
   @media screen and (max-width: 600px) {
     flex-direction: column;
     postition: fixed;
-    padding: 10px;
     height: 100px;
   }
 `

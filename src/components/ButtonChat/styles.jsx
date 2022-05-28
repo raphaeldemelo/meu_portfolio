@@ -14,4 +14,8 @@ align-items: center;
 justify-content: center;
 font-weight: bold;
 color: var(--white);
+
+@media (max-width: 768px) {
+      width: 100%;
+  }
 `

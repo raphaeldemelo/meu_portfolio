@@ -34,12 +34,23 @@ export default function Home () {
 
         <Sobre id='sobre'>
           <h1>Sobre mim</h1>
-          <Apresentacao />
+          <h1>
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page when looking at its layout. The point
+            of using Lorem Ipsum is that it has a more-or-less normal
+            distribution of letters, as opposed to using 'Content here, content
+            here's by accident, sometimes on purpose (injected humour
+            and the like).
+          </h1>
         </Sobre>
 
         <Projetos id='projetos'>
           <h1>Meus Projetos</h1>
-          <Apresentacao />
+          <h1>
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page when looking at its layout. The point
+            .
+          </h1>
         </Projetos>
 
         <Contato id='contato'>
@@ -48,7 +59,6 @@ export default function Home () {
             <ButtonChat />
           </Conteudo>
         </Contato>
-
         <Footer />
 
         <ButtonBackToTop />
