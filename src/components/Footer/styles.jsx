@@ -5,7 +5,7 @@ export const Container = styled.footer`
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  height: 10px;
+  height: 100px;
   width: 100vw;
 
   @media screen and (max-width: 600px) {
